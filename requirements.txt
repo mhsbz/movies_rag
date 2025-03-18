@@ -1,0 +1,13 @@
+chromadb
+langchain-chroma
+langchain-community
+langchain-core
+langchain-openai
+huggingface-hub
+sentence-transformers
+langchain_huggingface
+pandas
+tqdm
+openai
+python-dotenv
+unstructured
