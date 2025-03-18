@@ -76,10 +76,14 @@ def query_qusetion(q: str) ->str:
         stream=False
     )
 
-    print("context: ",context)
+    # print("context: ",context)
 
     return response.choices[0].message.content
 
-
-print(query_qusetion("春节联欢晚会的导演是谁"))
+if __name__ == '__main__':
+    while True:
+        q = input("请输入要查询的电影：")
+        if q == "/bye":
+            break
+        print(query_qusetion(q))
 
